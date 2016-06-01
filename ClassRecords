@@ -46,7 +46,14 @@ Volatility is a statistical measure of the dispersion of returns for a given sec
 
 CAINE?? forensice tool.
 
-vol.py -f ds_fuzz_hidden_proc.img profile=WinXPSP3x86 pslist
+#vol.py -f ds_fuzz_hidden_proc.img profile=WinXPSP3x86 pslist
+
+https://github.com/volatilityfoundation/volatility/wiki/
+
+#netstat -anb
+
+
+#SIGVERIF  it classify drivere with sys file in window and know that drivers are valid or not by microsoft
 
 
 
