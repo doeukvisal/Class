@@ -31,3 +31,23 @@ poison ivy is also builder to create malware
 finfisher is malwre creatot in mobile phone.
 
 totalhash ???
+
+FTK use for memory dump.
+
+SIFT (SANS dfir) memory investigation???
+
+vol.py ???
+
+vol.py -f ds_fuzz_hidden_proc.img imageinfo
+
+it will looking for volatility
+
+Volatility is a statistical measure of the dispersion of returns for a given security or market index. Volatility can either be measured by using the standard deviation or variance between returns from that same security or market index.
+
+CAINE?? forensice tool.
+
+vol.py -f ds_fuzz_hidden_proc.img profile=WinXPSP3x86 pslist
+
+
+
+
