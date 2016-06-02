@@ -55,6 +55,68 @@ https://github.com/volatilityfoundation/volatility/wiki/
 
 #SIGVERIF  it classify drivere with sys file in window and know that drivers are valid or not by microsoft
 
+after got malware we should do debuger
+
+like ollydebug
+
+#upx -9 filename  is app to compress malware or packed it to be unknown ( like renew malware)
+
+# peframe tell us to find source of packer.
+
+"Ryan Shipp" https://github.com/rshipp  is a guy who active in malware analysis and there are serveral projects
+
+tripwire it is watch software on any change in PC by malware
+
+we use trid to verify the packed malware
+
+#upx -o unpacked.exe -d packed.exe
+
+count lines #strings file | nl
+
+we can convert exe to vbs(MS office macro).
+
+installing part of SIFT
+#wget --quiet -O - https://remnux.org/get-remnux.sh | sudo bash
+
+
+Deep Freez: http://www.faronics.com/en-uk/downloads_en-uk/
+
+clone PC
+https://fogproject.org/
+
+Virtial to physical tool
+https://www.vmware.com/support/v2p/
+
+https://www.vmware.com/products/converter
+
+http://www.xenproject.org/
+
+
+
+enable IP forward
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+#iptables -p FORWARD ACCEPT
+
+#dumpcap -i  similar to wireshak
+
+live attached world wide
+http://map.norsecorp.com/#/
+
+RAT Exploit !!!
+
+in window to hide file:# notepad test.txt:malware.exe
+
+ADS detector
+
+
+to see profile type WinXPSP3x86
+#vol.py -f memdump.mem imageinfo
+find port which connect out, use by malware
+#vol.py -f memdump.mem profile=WinXPS3x86 connscan
+find process run
+##vol.py -f memdump.mem profile=WinXPS3x86 psscan  
+How it handles hardware/file
+# vol.py -f memdump.mem profile=WinXPS3x86 handles -p 832 -t File
 
 
 
