@@ -118,5 +118,15 @@ find process run
 How it handles hardware/file
 # vol.py -f memdump.mem profile=WinXPS3x86 handles -p 832 -t File
 
+to see how the malware use comand
+#vol.py -f memdump.mem profile=WinXPS3x86 apihooks
 
 
+use proccess exploror to deeply look into procee of malware
+
+create dump file from that process to keep and analysis.
+
+
+
+
+UPX Scrambler is packer smart one.
